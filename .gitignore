@@ -2,7 +2,6 @@
 **/node_modules/
 package-lock.json
 
-
 # Ignore build and temp files
 dist/
 build/
