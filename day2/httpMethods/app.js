@@ -6,7 +6,7 @@ app.use(express.json())
 let users = [];
 let currentID = 1
 
-app.get('/users', (req, res) => {
+app.get('/user', (req, res) => {
     res.send(users)
 })
 
@@ -52,7 +52,7 @@ app.put('/user/:id', (req, res) => {
 
 app.delete('/user/:id', (req, res) => {
     let id = req.params.id
-    
+
     let user = users.findIndex((u) => u.id === parseInt(id))
 
     if (user === -1) {

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><marquee direction="down">hello world!! <%= number %></marquee></h1>
+    <br/>
+
+    <h1 style="align-items: center;"> checking the element odd or even </h1>
+    
+    <!--
+        <%= %> it is use for output and print data 
+        <% %> it is use for control flow and loops
+    -->
+    <% if (number%2 == 0) {%>
+        <h3> number is even </h3>
+    <%}else {%> 
+        <h3> number is odd </h3>    
+    <%}%>
+    
+    <h1><marquee direction="up"> using ejs template</marquee></h1>
+    <h1><marquee direction="right" behavior="alternate">my fav no is <%= 4+5+60 %></marquee></h1>
+
+    <br/>
+    <h2> <marquee>using random no. <%=Math.floor(Math.random()*10) %></marquee>
+</body>
+</html>

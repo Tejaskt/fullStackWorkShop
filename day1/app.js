@@ -14,8 +14,8 @@ console.log(newArr)
 // node is javascript REPL that is read evoluate print loop
 
 // to see corrent working directory.
-console.log(process.cwd()) // its show the path where you stand
-console.log(__dirname) // show path upto the app.js
+console.log(process.cwd()) // its show the path where you stand or from where you runnig the file.
+console.log(__dirname) // show path upto the app.js the entire path.
 
 // path module 
 
